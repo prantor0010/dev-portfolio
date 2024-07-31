@@ -1,13 +1,17 @@
 /* overall collection */
-body{
+body {
   font-family: "Open Sans", sans-serif;
 }
 
-.txt-primary{
-  color:#FD6E0A;
+button {
+  cursor: pointer;
 }
 
-.btn-primary{
+.txt-primary {
+  color: #FD6E0A;
+}
+
+.btn-primary {
   background-color: #FD6E0A;
   border-radius: 5px;
   border: none;
@@ -18,28 +22,133 @@ body{
 }
 
 /* nav section */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 
-nav>ul{
+nav>ul {
   display: flex;
   align-items: center;
 }
 
-nav li{
+nav li {
   list-style: none;
   text-decoration: none;
   margin-right: 50px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
 }
 
-nav>h3{
+nav>h3 {
   font-size: 45px;
   font-weight: 800;
+}
+
+/* header section */
+
+.header-section {
+  background-color: #FFF8F3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* banner section */
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner img {
+  width: 500px;
+}
+
+.banner-data {
+  justify-content: left;
+}
+
+.banner-welcome {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.banner-desc {
+  max-width: 585px;
+}
+
+/* main part */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-me {
+  margin: 80px 0px;
+  background-color: #e2670f;
+  padding: 120px;
+}
+
+.text-area {
+  background-color: #fff;
+  padding: 5px 15px;
+}
+
+.pri-text {
+  font-size: 35px;
+  margin: 0px;
+  text-align: center;
+}
+
+.about-desc {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.about-me-table{
+  width: 100%;
+  text-align: center;
+}
+
+.about-me-table tr:nth-last-of-type(1) td{
+  font-weight: bold;
+}
+
+
+/* what i do section */
+
+.do-desc{
+  padding: 0px 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.exp-contain{
+  display: flex;
+}
+
+.topic{
+  /* border: 1px solid red; */
+  margin-top: 25px;
+  border-radius: 5px;
+  width: 240px;
+  height: 300px;
+  padding: 30px;
+  margin-left: 25px;
+  box-shadow: 0px 0px 30px rgb(206, 206, 206);
 }
